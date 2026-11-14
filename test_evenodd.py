@@ -1,7 +1,7 @@
 from evenodd import check_even_odd
 
 def test_even_number():
-    assert check_even_odd(10) =="odd"
+    assert check_even_odd(10) =="Even"
 
 def test_odd_number():
     assert check_even_odd(7) =="Odd"
